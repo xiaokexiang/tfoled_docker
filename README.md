@@ -12,5 +12,5 @@ docker run -itd --name tfoled \
    --net=host \
    -e upper=40  \ # 风扇启动的温度，不填默认45
    -e lower=38 \ # 风扇停止的温度，不填默认42
-   -d xiaokexiang/ubunt
+   -d xiaokexiang/ubuntu-tfoled
 ```
