@@ -1,8 +1,7 @@
-# sudo apt install libtiff5
-# sudo apt-get install libopenjp2-7-devdafruit-BBIO==1.2.0
-Adafruit-GPIO==1.0.3
-Adafruit-PureIO==1.1.7
+Adafruit-GPIO
+Adafruit-PureIO
 Nabaixin-TFOLED
 Pillow
 RPi.GPIO==0.7.1
-spidev==3.5
+spidev
+psutil
