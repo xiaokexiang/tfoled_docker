@@ -1,5 +1,4 @@
 FROM ubuntu:22.04
-RUN mkdir -p /root/tfoled
 RUN echo -e "nameserver 114.114.114.114\n nameserver 223.5.5.5" > /etc/hosts
 RUN apt update \
     && apt install python3 -y \ 
