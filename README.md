@@ -25,7 +25,7 @@ dtparam=i2s=on" >> /boot/config.txt
 docker run -itd --name tfoled \
    --privileged \
    --restart=always \
-   --name tfoled
+   --name tfoled \
    --net=host \
    -v ${mount_path}:/data \ # 将需要统计的磁盘挂在到/data目录
    -e upper=40  \ # 风扇启动的温度，不填默认45
