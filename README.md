@@ -1,5 +1,3 @@
-LED Docker
-
 ### 前言
 1. 基于[Nabaixin/TFOLED](https://github.com/Nabaixin/TFOLED)的基础上进行封装的docker版本。此版本是基于`Alpine Linux 3.14`镜像进行封装，封装后镜像大小相比ubuntu要少将近200M。
 2. 入手树莓派4B以来每次都要重新安装一次，tfoled依赖python，还受到内核版本的影响，之前使用`raspberrypi os`时安装会出现依赖问题，折腾了好长时间，最后使用`aptitude`才成功安装。
